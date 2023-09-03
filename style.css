@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fuzzy+Bubbles:wght@700&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#300030,
+    #480048);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameName{
+    background-color: #501750;
+    color: #be82be;
+    height: 60%;
+    width: 70%;
+    border-radius: 50%;
+    text-align: center;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(360deg); */
+    transition: 3s;
+}
+.next{
+
+    color: #be82be;
+   
+    text-align: center;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #be82be; 
+    margin-bottom: 20px;
+    font-size: 5rem;   
+}
+span{
+    font-family: 'Caveat', cursive;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(255, 247, 231);
+     */
+     background:linear-gradient(yellow,orange);
+color: white;
+    font-size: 2.5rem;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: rgb(236, 194, 4); 
+    margin-bottom: 20px;
+    font-size: 5rem;  
+    text-align: center; 
+}
+.btn{
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    background:linear-gradient(yellow,orange);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 500ms;
+    /* transform: rotateX(360deg); */
+    }
+    .btn:hover{
+        /* color: black; */
+        background:linear-gradient(#501750,#925992);
+        color: black;
+
+    }
+    .hide{
+        display: none;
+    }
+    input{
+        height: 3rem;
+        border-radius: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .butts{
+        display: flex;
+    }
+@media (max-width:500px){
+    span{
+        background-color: rgb(255, 247, 231);
+        font-size: 1rem;
+        margin: 0px 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h1,h2{
+        font-size: 2rem;
+    }
+
+}
